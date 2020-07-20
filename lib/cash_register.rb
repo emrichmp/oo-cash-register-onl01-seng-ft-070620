@@ -30,7 +30,5 @@ class CashRegister
     end
   end
   
-  def items()
-    
-  end
+  attr_writer :item
 end
