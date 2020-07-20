@@ -20,4 +20,8 @@ class CashRegister
       count -= 1
     end
   end
+  
+  def apply_discount()
+    
+  end
 end
