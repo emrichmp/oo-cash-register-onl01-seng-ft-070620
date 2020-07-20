@@ -11,7 +11,7 @@ class CashRegister
     @transactions = []
   end
   
-  def add_item()
+  def add_item(thing, price, quantity)
     
   end
 end
