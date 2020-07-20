@@ -6,5 +6,6 @@ class CashRegister
     @total = 0
     @discount = discount
     @price = price
+    @quantity = quantity
   end
 end
