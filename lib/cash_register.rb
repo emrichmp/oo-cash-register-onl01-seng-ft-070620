@@ -10,4 +10,8 @@ class CashRegister
     @items = []
     @transactions = []
   end
+  
+  def add_item()
+    
+  end
 end
