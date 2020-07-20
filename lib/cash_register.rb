@@ -7,5 +7,7 @@ class CashRegister
     @discount = discount
     @price = price
     @quantity = quantity
+    @items = []
+    @transactions = []
   end
 end
