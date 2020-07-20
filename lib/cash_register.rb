@@ -31,4 +31,7 @@ class CashRegister
   end
   
   # attr_reader :items
+  
+  def 
+  
 end
