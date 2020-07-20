@@ -16,7 +16,7 @@ class CashRegister
     @transactions << price
     count = quantity
     if count != 0
-      @item << thing
+      @items << thing
       count -= 1
     end
   end
