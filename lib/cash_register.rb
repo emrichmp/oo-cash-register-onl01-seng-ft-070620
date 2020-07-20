@@ -17,6 +17,6 @@ class CashRegister
     count = quantity
     if count != 0
       @item << thing
-      
+      count -= 1
   end
 end
