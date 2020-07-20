@@ -33,7 +33,7 @@ class CashRegister
   # attr_reader :items
   
   def void_last_transaction
-    self.total = @total - 
+    self.total = @total - @transactions.pop
   end
   
 end
