@@ -32,6 +32,8 @@ class CashRegister
   
   # attr_reader :items
   
-  def 
+  def void_last_transaction
+    
+  end
   
 end
