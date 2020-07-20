@@ -30,5 +30,7 @@ class CashRegister
     end
   end
   
-  attr_reader :items
+  def items()
+    @items
+  end
 end
