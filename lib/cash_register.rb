@@ -15,23 +15,11 @@ class CashRegister
     @total = @total + (price*quantity)
     @transactions << price
     count = quantity
-    if count != 0
+    until count == 0 dp
       @items << thing
       count -= 1
-    else
-      @items
     end
   end
-  
-  #   def add_item(title, price, quantity = 1)
-  #   @total += price * quantity
-  #   @transactions << price
-  #   i = quantity
-  #   until i == 0 do
-  #     @items << title
-  #     i -= 1
-  #   end
-  # end
   
   def apply_discount()
     if discount == 0
