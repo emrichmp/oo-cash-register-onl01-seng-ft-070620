@@ -15,7 +15,7 @@ class CashRegister
     @total = @total + price*quantity
     @transactions << price
     count = quantity
-    if count > 0
+    if count != 0
       @items << thing
       count -= 1
     end
