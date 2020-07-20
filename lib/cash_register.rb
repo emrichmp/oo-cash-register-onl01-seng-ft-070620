@@ -18,6 +18,8 @@ class CashRegister
     if count != 0
       @items << thing
       count -= 1
+    else
+      @items
     end
   end
   
