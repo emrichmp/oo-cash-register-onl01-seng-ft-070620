@@ -33,7 +33,7 @@ class CashRegister
   # attr_reader :items
   
   def void_last_transaction
-    self.total = 
+    self.total = @
   end
   
 end
