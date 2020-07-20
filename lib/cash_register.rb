@@ -30,5 +30,5 @@ class CashRegister
     end
   end
   
-  attr_writer :item
+  attr_writer :items
 end
