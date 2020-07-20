@@ -12,7 +12,7 @@ class CashRegister
   end
   
   def add_item(thing, price, quantity = 1)
-    @total = @total + price*quantity
+    @total = @total + (price*quantity)
     @transactions << price
     count = quantity
     if count != 0
