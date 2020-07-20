@@ -11,7 +11,7 @@ class CashRegister
     @transactions = []
   end
   
-  def add_item(thing, price, quantity)
+  def add_item(thing, price, quantity = 1)
     @total = @total + price*quantity
     @transactions << price
     count = quantity
